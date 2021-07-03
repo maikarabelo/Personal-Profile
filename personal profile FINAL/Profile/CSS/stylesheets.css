@@ -1,0 +1,142 @@
+h1{
+    color: midnightblue;
+    font-size: 50px;
+    font-weight: 1000px;
+    position: absolute;
+    top: 12%;
+    left: 35%;
+    text-transform: uppercase;
+    text-decoration: underline;
+   
+}
+
+h2{
+    color:navy;
+    font-size: 50px;
+    font-weight: 1000px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+h3{
+    margin-top: 200px;
+    margin-left: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 250px;
+    text-decoration: underline;
+}
+
+h5{
+    margin-top: -40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    font-size: 20px;
+}
+img{
+    margin-left: 50px;
+    margin-top: 180px; 
+}
+
+nav{
+	width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+	
+	}
+	
+	nav ul{
+		margin: 0;
+		padding: 0;
+		list-style: none; 	
+	}
+	
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 23px;
+	position: relative;
+}
+
+nav a {
+	color:#444;
+	text-decoration: none;
+	text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+
+
+nav a::before{
+	content: '';
+	display:block;
+	height: 5px;
+	width: 100%;
+	background-color: #444;
+	position: absolute;
+}
+
+body{
+    background-color:skyblue;
+    margin-right: 50px;
+}
+
+.tech_skills {
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+   /* grid-template-columns: 120px 380px 10px 250px;*/
+    font-size: large;
+}
+
+.one{
+    flex:1;
+    
+}
+
+.three{
+    flex:3;
+}
+
+.contacts{
+    margin-top: 180px;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+}
+.education{
+    margin-top: 180px;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 70px;
+    font-size: large;
+}
+
+.other{
+    margin-top: 180px;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.images{
+    margin-top: 100px;
+}
+
+.objective{
+    margin-top: 300px;
+    font-size:x-large;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 100px;
+}
+
+.contacts  .fa{
+    margin-right: 20px;
+}
+
